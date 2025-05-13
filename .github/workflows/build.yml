@@ -3,8 +3,8 @@ name: 🐳 Create and publish a Docker image
 on:
   push:
     branches:
-      - main
-      - dev
+      # - main
+      # - dev
   workflow_dispatch: # Add this line to enable the Run workflow button
 permissions:
   actions: write
